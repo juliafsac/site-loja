@@ -18,8 +18,8 @@ li{
 }
 
 #logo{
-height: 90px;/*altura*/
-width: 140px; /*largura*/
+height: 95px;/*altura*/
+width: 180px; /*largura*/
 
 }
 
@@ -32,6 +32,8 @@ ul{
 .menu{
 display: flex;
 flex-direction: row;
+align-items: center;
+justify-content: space-evenly;
 
 
 }
@@ -40,4 +42,20 @@ flex-direction: row;
 
 height: 90px;
 width: 90px;
+}
+
+.bi{
+
+    font-size: 30px ;
+    color: dimgray;
+   
+}
+
+.banner{
+background-image: url("./assets/banner.png");
+background-repeat:no-repeat ;
+background-size: cover;
+height:400px;
+width: 700px;
+border-radius: 25px;
 }
