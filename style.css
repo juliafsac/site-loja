@@ -150,3 +150,28 @@ flex-direction: row;
 justify-content: space-evenly;
 width:100px ;
 }
+
+.produto_dois{
+height:350px;
+width:190px;
+}
+
+.produto_tres{
+height:350px;
+width:190px;
+}
+
+
+.carousel{
+display: flex;
+flex-direction: row;
+justify-content: center;
+gap:15px ;
+
+}
+
+.xbox{
+width: 900px; 
+height:450px ;
+display: flex;
+}
