@@ -170,8 +170,14 @@ gap:15px ;
 
 }
 
-.xbox{
-width: 900px; 
-height:450px ;
-display: flex;
+.banner-xbox{
+background-image: url("./assets/x-box.png");
+background-repeat: no-repeat;
+background-size: cover;
+height: 300px;
+ width: 600px;
+ border-radius: 15px;
+ display: flex;
+ align-items: center;
 }
+
